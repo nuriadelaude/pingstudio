@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, observerOptions);
 
     // Observe elements for animation
-    const animatedElements = document.querySelectorAll('.service-item, .pricing-card');
+    const animatedElements = document.querySelectorAll('.service-item, .pricing-card, .portfolio-item');
     animatedElements.forEach(el => {
         el.classList.add('animate-on-scroll');
         observer.observe(el);
